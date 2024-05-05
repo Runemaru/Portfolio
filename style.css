@@ -1,0 +1,111 @@
+*{
+    color: white;
+    font-family: Playfair;
+    text-decoration: none;
+    transition: 0.2s linear;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:linear-gradient(to top,#211C4E, #0A0724);
+    height: 100%;
+    width: 100%;
+    
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+q{
+    display: flex;
+    text-align: center;
+
+    color: #fff;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 400px;
+    height: 620px;
+    
+    border-radius: 8px;
+    margin: 50px auto;
+
+    background: linear-gradient(to bottom, #080526, #942C2C);
+    background-color: #942C2C;
+    
+}
+
+.perfil{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.conteiner2{
+    margin-top: 180px;
+    
+}
+
+.conteiner3{
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    margin-top: 12px;
+    width: 25vw;
+    height: 35px;
+    background: linear-gradient(to right, #7C3C4D, #942C2C);
+    justify-content: center;
+    border-radius: 10px
+}
+
+a:hover{
+    scale: 130%;
+}
+
+/******************************************************Portfolio*****************************************************************************/
+
+.conteiner-sobre{
+    margin-top: 0px;
+    
+}
+
+.conteiner-sobre2{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    padding: 6px;
+    margin-top: 8px;
+    width: 25vw;
+    height: 399px;
+    background: linear-gradient(to right, #7C3C4D, #321128);
+    justify-content: center;
+    border-radius: 10px
+}
+
+.paragrafo-sobre{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.paragrafo-sobre2{
+    text-align: center;
+    font-weight: 700;
+
+}
+
+
+.imagem-sobre{
+    display: flex;
+    gap: 12px;
+}
